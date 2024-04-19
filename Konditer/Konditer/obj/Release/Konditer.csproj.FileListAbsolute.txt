@@ -1,0 +1,16 @@
+D:\Users\Главный\Мои документы\ЗМК\ДИПЛОМЫ 2019\Артемьева\2.0\Konditer\Konditer\bin\Release\Konditer.exe.config
+D:\Users\Главный\Мои документы\ЗМК\ДИПЛОМЫ 2019\Артемьева\2.0\Konditer\Konditer\obj\Release\Konditer.csproj.ResolveComReference.cache
+D:\Users\Главный\Мои документы\ЗМК\ДИПЛОМЫ 2019\Артемьева\2.0\Konditer\Konditer\bin\Release\Konditer.exe
+D:\Users\Главный\Мои документы\ЗМК\ДИПЛОМЫ 2019\Артемьева\2.0\Konditer\Konditer\bin\Release\Konditer.pdb
+D:\Users\Главный\Мои документы\ЗМК\ДИПЛОМЫ 2019\Артемьева\2.0\Konditer\Konditer\obj\Release\Konditer.CakeForm.resources
+D:\Users\Главный\Мои документы\ЗМК\ДИПЛОМЫ 2019\Артемьева\2.0\Konditer\Konditer\obj\Release\Konditer.CategoryForm.resources
+D:\Users\Главный\Мои документы\ЗМК\ДИПЛОМЫ 2019\Артемьева\2.0\Konditer\Konditer\obj\Release\Konditer.DecorForm.resources
+D:\Users\Главный\Мои документы\ЗМК\ДИПЛОМЫ 2019\Артемьева\2.0\Konditer\Konditer\obj\Release\Konditer.MainForm.resources
+D:\Users\Главный\Мои документы\ЗМК\ДИПЛОМЫ 2019\Артемьева\2.0\Konditer\Konditer\obj\Release\Konditer.NewOrderForm.resources
+D:\Users\Главный\Мои документы\ЗМК\ДИПЛОМЫ 2019\Артемьева\2.0\Konditer\Konditer\obj\Release\Konditer.OrdersForm.resources
+D:\Users\Главный\Мои документы\ЗМК\ДИПЛОМЫ 2019\Артемьева\2.0\Konditer\Konditer\obj\Release\Konditer.StartForm.resources
+D:\Users\Главный\Мои документы\ЗМК\ДИПЛОМЫ 2019\Артемьева\2.0\Konditer\Konditer\obj\Release\Konditer.Properties.Resources.resources
+D:\Users\Главный\Мои документы\ЗМК\ДИПЛОМЫ 2019\Артемьева\2.0\Konditer\Konditer\obj\Release\Konditer.StuffingForm.resources
+D:\Users\Главный\Мои документы\ЗМК\ДИПЛОМЫ 2019\Артемьева\2.0\Konditer\Konditer\obj\Release\Konditer.csproj.GenerateResource.Cache
+D:\Users\Главный\Мои документы\ЗМК\ДИПЛОМЫ 2019\Артемьева\2.0\Konditer\Konditer\obj\Release\Konditer.exe
+D:\Users\Главный\Мои документы\ЗМК\ДИПЛОМЫ 2019\Артемьева\2.0\Konditer\Konditer\obj\Release\Konditer.pdb

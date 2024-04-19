@@ -1,0 +1,67 @@
+D:\Руслан\Артемьева 157\Konditer\Konditer\bin\Debug\Konditer.exe.config
+D:\Руслан\Артемьева 157\Konditer\Konditer\bin\Debug\Konditer.exe
+D:\Руслан\Артемьева 157\Konditer\Konditer\bin\Debug\Konditer.pdb
+D:\Руслан\Артемьева 157\Konditer\Konditer\obj\Debug\Konditer.csprojResolveAssemblyReference.cache
+D:\Руслан\Артемьева 157\Konditer\Konditer\obj\Debug\Konditer.CategoryForm.resources
+D:\Руслан\Артемьева 157\Konditer\Konditer\obj\Debug\Konditer.DecorForm.resources
+D:\Руслан\Артемьева 157\Konditer\Konditer\obj\Debug\Konditer.MainForm.resources
+D:\Руслан\Артемьева 157\Konditer\Konditer\obj\Debug\Konditer.StartForm.resources
+D:\Руслан\Артемьева 157\Konditer\Konditer\obj\Debug\Konditer.Properties.Resources.resources
+D:\Руслан\Артемьева 157\Konditer\Konditer\obj\Debug\Konditer.StuffingForm.resources
+D:\Руслан\Артемьева 157\Konditer\Konditer\obj\Debug\Konditer.csproj.GenerateResource.Cache
+D:\Руслан\Артемьева 157\Konditer\Konditer\obj\Debug\Konditer.exe
+D:\Руслан\Артемьева 157\Konditer\Konditer\obj\Debug\Konditer.pdb
+D:\Руслан\Артемьева 157\Konditer\Konditer\obj\Debug\Konditer.CakeForm.resources
+D:\Руслан\Артемьева 157\Konditer\Konditer\obj\Debug\Konditer.NewOrderForm.resources
+D:\Руслан\Артемьева 157\Konditer\Konditer\obj\Debug\Konditer.OrdersForm.resources
+D:\Users\Главный\Мои документы\ЗМК\ДИПЛОМЫ 2019\Артемьева\Артемьева 157\Konditer\Konditer\bin\Debug\Konditer.exe.config
+D:\Users\Главный\Мои документы\ЗМК\ДИПЛОМЫ 2019\Артемьева\Артемьева 157\Konditer\Konditer\obj\Debug\Konditer.exe
+D:\Users\Главный\Мои документы\ЗМК\ДИПЛОМЫ 2019\Артемьева\Артемьева 157\Konditer\Konditer\obj\Debug\Konditer.pdb
+D:\Users\Главный\Мои документы\ЗМК\ДИПЛОМЫ 2019\Артемьева\Артемьева 157\Konditer\Konditer\bin\Debug\Konditer.exe
+D:\Users\Главный\Мои документы\ЗМК\ДИПЛОМЫ 2019\Артемьева\Артемьева 157\Konditer\Konditer\bin\Debug\Konditer.pdb
+D:\Users\Главный\Мои документы\ЗМК\ДИПЛОМЫ 2019\Артемьева\Артемьева 157\Konditer\Konditer\obj\Debug\Konditer.csprojResolveAssemblyReference.cache
+D:\Users\Главный\Мои документы\ЗМК\ДИПЛОМЫ 2019\Артемьева\Артемьева 157\Konditer\Konditer\obj\Debug\Konditer.CakeForm.resources
+D:\Users\Главный\Мои документы\ЗМК\ДИПЛОМЫ 2019\Артемьева\Артемьева 157\Konditer\Konditer\obj\Debug\Konditer.CategoryForm.resources
+D:\Users\Главный\Мои документы\ЗМК\ДИПЛОМЫ 2019\Артемьева\Артемьева 157\Konditer\Konditer\obj\Debug\Konditer.DecorForm.resources
+D:\Users\Главный\Мои документы\ЗМК\ДИПЛОМЫ 2019\Артемьева\Артемьева 157\Konditer\Konditer\obj\Debug\Konditer.MainForm.resources
+D:\Users\Главный\Мои документы\ЗМК\ДИПЛОМЫ 2019\Артемьева\Артемьева 157\Konditer\Konditer\obj\Debug\Konditer.NewOrderForm.resources
+D:\Users\Главный\Мои документы\ЗМК\ДИПЛОМЫ 2019\Артемьева\Артемьева 157\Konditer\Konditer\obj\Debug\Konditer.OrdersForm.resources
+D:\Users\Главный\Мои документы\ЗМК\ДИПЛОМЫ 2019\Артемьева\Артемьева 157\Konditer\Konditer\obj\Debug\Konditer.StartForm.resources
+D:\Users\Главный\Мои документы\ЗМК\ДИПЛОМЫ 2019\Артемьева\Артемьева 157\Konditer\Konditer\obj\Debug\Konditer.Properties.Resources.resources
+D:\Users\Главный\Мои документы\ЗМК\ДИПЛОМЫ 2019\Артемьева\Артемьева 157\Konditer\Konditer\obj\Debug\Konditer.StuffingForm.resources
+D:\Users\Главный\Мои документы\ЗМК\ДИПЛОМЫ 2019\Артемьева\Артемьева 157\Konditer\Konditer\obj\Debug\Konditer.csproj.GenerateResource.Cache
+D:\Users\Главный\Мои документы\ЗМК\ДИПЛОМЫ 2019\Артемьева\Артемьева 157\Konditer\Konditer\obj\Debug\Konditer.csproj.ResolveComReference.cache
+d:\Руслан\Артемьева 157\2.0\Артемьева 157\Konditer\Konditer\bin\Debug\Konditer.exe.config
+d:\Руслан\Артемьева 157\2.0\Артемьева 157\Konditer\Konditer\obj\Debug\Konditer.csproj.ResolveComReference.cache
+d:\Руслан\Артемьева 157\2.0\Артемьева 157\Konditer\Konditer\obj\Debug\Konditer.exe
+d:\Руслан\Артемьева 157\2.0\Артемьева 157\Konditer\Konditer\obj\Debug\Konditer.pdb
+d:\Руслан\Артемьева 157\2.0\Артемьева 157\Konditer\Konditer\bin\Debug\Konditer.exe
+d:\Руслан\Артемьева 157\2.0\Артемьева 157\Konditer\Konditer\bin\Debug\Konditer.pdb
+d:\Руслан\Артемьева 157\2.0\Артемьева 157\Konditer\Konditer\obj\Debug\Konditer.csprojResolveAssemblyReference.cache
+d:\Руслан\Артемьева 157\2.0\Артемьева 157\Konditer\Konditer\obj\Debug\Konditer.CakeForm.resources
+d:\Руслан\Артемьева 157\2.0\Артемьева 157\Konditer\Konditer\obj\Debug\Konditer.CategoryForm.resources
+d:\Руслан\Артемьева 157\2.0\Артемьева 157\Konditer\Konditer\obj\Debug\Konditer.DecorForm.resources
+d:\Руслан\Артемьева 157\2.0\Артемьева 157\Konditer\Konditer\obj\Debug\Konditer.MainForm.resources
+d:\Руслан\Артемьева 157\2.0\Артемьева 157\Konditer\Konditer\obj\Debug\Konditer.NewOrderForm.resources
+d:\Руслан\Артемьева 157\2.0\Артемьева 157\Konditer\Konditer\obj\Debug\Konditer.OrdersForm.resources
+d:\Руслан\Артемьева 157\2.0\Артемьева 157\Konditer\Konditer\obj\Debug\Konditer.StartForm.resources
+d:\Руслан\Артемьева 157\2.0\Артемьева 157\Konditer\Konditer\obj\Debug\Konditer.Properties.Resources.resources
+d:\Руслан\Артемьева 157\2.0\Артемьева 157\Konditer\Konditer\obj\Debug\Konditer.StuffingForm.resources
+d:\Руслан\Артемьева 157\2.0\Артемьева 157\Konditer\Konditer\obj\Debug\Konditer.csproj.GenerateResource.Cache
+D:\Users\Главный\Мои документы\ЗМК\ДИПЛОМЫ 2019\Артемьева\2.0\Konditer\Konditer\bin\Debug\Konditer.exe.config
+D:\Users\Главный\Мои документы\ЗМК\ДИПЛОМЫ 2019\Артемьева\2.0\Konditer\Konditer\obj\Debug\Konditer.csproj.ResolveComReference.cache
+D:\Users\Главный\Мои документы\ЗМК\ДИПЛОМЫ 2019\Артемьева\2.0\Konditer\Konditer\obj\Debug\Konditer.exe
+D:\Users\Главный\Мои документы\ЗМК\ДИПЛОМЫ 2019\Артемьева\2.0\Konditer\Konditer\obj\Debug\Konditer.pdb
+D:\Users\Главный\Мои документы\ЗМК\ДИПЛОМЫ 2019\Артемьева\2.0\Konditer\Konditer\bin\Debug\Konditer.exe
+D:\Users\Главный\Мои документы\ЗМК\ДИПЛОМЫ 2019\Артемьева\2.0\Konditer\Konditer\bin\Debug\Konditer.pdb
+D:\Users\Главный\Мои документы\ЗМК\ДИПЛОМЫ 2019\Артемьева\2.0\Konditer\Konditer\obj\Debug\Konditer.csprojResolveAssemblyReference.cache
+D:\Users\Главный\Мои документы\ЗМК\ДИПЛОМЫ 2019\Артемьева\2.0\Konditer\Konditer\obj\Debug\Konditer.CakeForm.resources
+D:\Users\Главный\Мои документы\ЗМК\ДИПЛОМЫ 2019\Артемьева\2.0\Konditer\Konditer\obj\Debug\Konditer.CategoryForm.resources
+D:\Users\Главный\Мои документы\ЗМК\ДИПЛОМЫ 2019\Артемьева\2.0\Konditer\Konditer\obj\Debug\Konditer.DecorForm.resources
+D:\Users\Главный\Мои документы\ЗМК\ДИПЛОМЫ 2019\Артемьева\2.0\Konditer\Konditer\obj\Debug\Konditer.MainForm.resources
+D:\Users\Главный\Мои документы\ЗМК\ДИПЛОМЫ 2019\Артемьева\2.0\Konditer\Konditer\obj\Debug\Konditer.NewOrderForm.resources
+D:\Users\Главный\Мои документы\ЗМК\ДИПЛОМЫ 2019\Артемьева\2.0\Konditer\Konditer\obj\Debug\Konditer.OrdersForm.resources
+D:\Users\Главный\Мои документы\ЗМК\ДИПЛОМЫ 2019\Артемьева\2.0\Konditer\Konditer\obj\Debug\Konditer.StartForm.resources
+D:\Users\Главный\Мои документы\ЗМК\ДИПЛОМЫ 2019\Артемьева\2.0\Konditer\Konditer\obj\Debug\Konditer.Properties.Resources.resources
+D:\Users\Главный\Мои документы\ЗМК\ДИПЛОМЫ 2019\Артемьева\2.0\Konditer\Konditer\obj\Debug\Konditer.StuffingForm.resources
+D:\Users\Главный\Мои документы\ЗМК\ДИПЛОМЫ 2019\Артемьева\2.0\Konditer\Konditer\obj\Debug\Konditer.csproj.GenerateResource.Cache

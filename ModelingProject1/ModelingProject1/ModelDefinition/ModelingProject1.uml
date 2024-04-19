@@ -1,0 +1,1647 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel"
+  dslVersion="1.0.0.0"
+  Id="8bfc6740-6bb1-4d59-bc0c-5d3df003f9a8"
+  name="ModelingProject1" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="5c83eb53-5a93-48e2-9d56-540e779c5bad"
+        name="Отели"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="a6143943-175d-4256-ac9d-61700afb9e49"
+            isDerived="false"
+            sourceEndRoleName="Отели"
+            targetEndRoleName="Номера"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="cb180e6a-64b7-4619-956a-0581ba498a61"
+              LastKnownName="Номера"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ef73c90e-d471-498c-93ba-61268a431b4f"
+                  name="Отели"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="e877616e-dd33-4304-a24d-38a4d0b88b92"
+                  name="Номера"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="3ee1d0c2-986a-4d9f-b21a-c31f7f778032"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="aca018dd-d6e9-4de0-a0bc-c2d107fbecff"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="ce2ecb9d-17c6-4ae6-9d59-54569741bc40"
+            isDerived="false"
+            sourceEndRoleName="Отели"
+            targetEndRoleName="Услуги"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="81ab2019-1db5-436e-a6f1-73b1031ddf0b"
+              LastKnownName="Услуги"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="2c75af40-8f07-41c3-9730-e95dcfc6a9b8"
+                  name="Отели"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="fd733d5a-39ab-4731-aa34-674af0ecceb9"
+                  name="Услуги"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="bec9b901-84b5-4417-84c4-1ed87ae360ab"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="bfda556c-c77a-4792-b413-1ec74fb6e4ee"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="9c35e238-aa92-4201-89d1-810819e32764"
+            name="Название"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="47764ee9-d97e-4a2c-aea0-c0a4df77604e"
+            name="Город"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="2c7b1633-c6df-4301-8913-ee3e36846a79"
+            name="Телефоны"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="954704c9-90e8-4606-a667-72b44ab7c690"
+            name="Адрес"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="4a65bdff-d7da-4dc2-8b5a-1bee7b1627c0"
+            name="Рейтинг"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="5a620d18-3325-4ff3-bfe4-764327c80e6a"
+            name="Класс"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="4604bf70-8750-4efd-acef-17788593a10b"
+            name="Сайт"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="a7839065-ea0d-470f-afcd-bab444b99f2c"
+            name="Фото"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="cb180e6a-64b7-4619-956a-0581ba498a61"
+        name="Номера"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <property
+            Id="0d330636-8178-46de-88bc-6a4543e6b2ac"
+            name="Наименование"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="f5d7c971-b185-42fa-95cf-c90881124025"
+        name="Клиент"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="e080ac77-4916-4296-8e51-e7d3f182a798"
+            isDerived="false"
+            sourceEndRoleName="Пользователь"
+            targetEndRoleName="UseCase1"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="3ad89e7c-9960-4ace-81f9-cfe077095cfa"
+              LastKnownName="Подача заявки на изготовление торта"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="daa30233-5958-4be0-a23b-c4eb32069cbc"
+                  name="Пользователь"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="4b36edc0-19a5-422e-b991-cb069757763f"
+                  name="UseCase1"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="413bc283-5057-4d2f-89ef-9d92fa30e038"
+            isDerived="false"
+            sourceEndRoleName="Пользователь"
+            targetEndRoleName="Данные о товарах"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="9fe70dce-8711-4ae6-8622-245ef7e35b97"
+              LastKnownName="Покупка товара"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="7da7f2ca-dbbc-4d03-af3a-8f361158a65e"
+                  name="Пользователь"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="067c1dca-2c59-4a4c-89ac-26b3c66e4046"
+                  name="Данные о товарах"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="fee9c259-2d8f-4e26-83a6-71601e86e40a"
+            isDerived="false"
+            sourceEndRoleName="Пользователь"
+            targetEndRoleName="Просмотр вкладов"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="3404a26e-abbf-4a7a-a850-190c533e8811"
+              LastKnownName="Поиск преприятий"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="1b12838c-3c63-4837-91db-b21768db5c63"
+                  name="Пользователь"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="709e4ebf-9023-4024-94e4-92486adb9aa7"
+                  name="Просмотр вкладов"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="386b2e4d-8dbb-42af-8ce9-087ef1c2b786"
+            isDerived="false"
+            sourceEndRoleName="Пользователь"
+            targetEndRoleName="Поиск на карте"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="c98a9beb-62bb-47b1-87d1-118f969bb2aa"
+              LastKnownName="Поиск на карте"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c0dceb4d-e64d-44b3-bb81-46104e48a96a"
+                  name="Пользователь"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f88dd583-fe2c-434c-8979-13089f120fd2"
+                  name="Поиск на карте"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="3ad89e7c-9960-4ace-81f9-cfe077095cfa"
+        name="Подача заявки на изготовление торта"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="26cfcc08-79bf-41cd-b9cf-f17155097a26"
+            isDerived="false"
+            sourceEndRoleName="Подача заявки на гарантийный ремонт"
+            targetEndRoleName="Заявка"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="847b6289-7675-4395-bf2f-14101c1deedd"
+              LastKnownName="Заявка"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d445a29a-e024-452e-bb43-2e3ce8c172cb"
+                  name="Подача заявки на гарантийный ремонт"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="7182d622-50f1-484f-965b-23cd24d3597b"
+                  name="Заявка"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="9fe70dce-8711-4ae6-8622-245ef7e35b97"
+        name="Покупка товара"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="449681b6-e883-4e41-9020-b185c95ef082"
+            isDerived="false"
+            sourceEndRoleName="Покупка товара"
+            targetEndRoleName="Товар"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="f1cd8da4-7ff0-495b-99b5-6a6a017723e3"
+              LastKnownName="Торт"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="689f254a-b693-4bc1-8daa-2239dfce10ad"
+                  name="Покупка товара"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="6cf72d53-bd4b-40fd-a173-46e6f1101f95"
+                  name="Товар"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="ea35e00c-246d-4a0f-97df-d1a06e6a2dc8"
+        name="UseCase1"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="034ddc7b-a6fd-4a4f-9bc4-b6f847743c1f"
+        name="Менеджер"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="9625000a-07e7-49d3-ae15-55d71cdc4b33"
+            isDerived="false"
+            sourceEndRoleName="Администратор"
+            targetEndRoleName="Ввод, удаление и корректировка данных"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="4f286815-0c17-411f-95e9-d8973345a4e2"
+              LastKnownName="Формирование заявки "
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d1d15670-10f6-4089-95a5-7188691d412c"
+                  name="Администратор"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="dab4d0be-a642-4010-a827-dd0b870f6fd0"
+                  name="Ввод, удаление и корректировка данных"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="35323bb3-08cb-4518-a90d-5c43901cf7d4"
+            isDerived="false"
+            sourceEndRoleName="Администратор"
+            targetEndRoleName="UseCase2"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="c1d26a48-699c-492f-af5c-6ce365ef18ff"
+              LastKnownName="Заполнение данными"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a7f50990-78b1-46f7-8dbf-779b975207a2"
+                  name="Администратор"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="fd28e100-d56a-40e4-a57c-1e149c3365b3"
+                  name="UseCase2"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="b96d1562-ab20-4548-bcf1-4f579c9837ef"
+            isDerived="false"
+            sourceEndRoleName="Менеджер"
+            targetEndRoleName="Учет заявок"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="b1c63b33-7439-48d3-b55a-64af90e7495f"
+              LastKnownName="Учет заявок"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ba868ddc-b080-4ae1-9eb3-685343f3e9a5"
+                  name="Менеджер"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="7e4eb045-4a11-463c-a592-1ec78aa2c270"
+                  name="Учет заявок"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="4f286815-0c17-411f-95e9-d8973345a4e2"
+        name="Формирование заявки "
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="c051f7d7-dd55-4c64-9306-ec33abcb1649"
+            isDerived="false"
+            sourceEndRoleName="Формирование заявки на ремонт"
+            targetEndRoleName="Заявка"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="847b6289-7675-4395-bf2f-14101c1deedd"
+              LastKnownName="Заявка"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="59de1393-9d2b-442a-ac2a-151f0d9cadec"
+                  name="Формирование заявки на ремонт"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="6b556a51-69a5-4ca9-bbd5-3cbcde3f7e69"
+                  name="Заявка"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="81ab2019-1db5-436e-a6f1-73b1031ddf0b"
+        name="Услуги"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <property
+            Id="01309108-94f6-4c27-80e8-b7a141fdcbcc"
+            name="Наименование"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="595e321d-1d11-463f-b261-02f4d2e3c17f"
+        name="Предприятия"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="5848ed49-915a-43c6-b952-91977005fddf"
+            isDerived="false"
+            sourceEndRoleName="Преприятия"
+            targetEndRoleName="Формы собственности"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="bb246e0f-96ea-4926-b2f6-3778b790da57"
+              LastKnownName="Формы собственности"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a28ed69e-4955-4749-96db-cba15a2c22f0"
+                  name="Преприятия"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="758d125e-a0e5-44f7-bddb-1952d6bd172f"
+                  name="Формы собственности"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="d50878dc-04a4-416e-8780-b70c71e2cd62"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="18f40700-f31b-4c12-bb26-5e3467146189"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="26c03125-b9f0-4293-b1d7-f3508a298476"
+            isDerived="false"
+            sourceEndRoleName="Преприятия"
+            targetEndRoleName="Формы собственности"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="aeb5c3de-c78e-4222-9b7e-7a45564ce2d4"
+              LastKnownName="Торты"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ba3e2517-1074-4fc7-b2fd-15ea449424ac"
+                  name="Преприятия"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="45ade08c-be78-4d89-8da8-5ff4ed4d98c0"
+                  name="Формы собственности"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="96d04327-4928-48d5-bff1-553107c53553"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="81e453f2-c0dd-4e22-9676-90553776be61"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="57b4277d-8aef-412b-bd44-61750ae29cf4"
+            name="Название"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="3daa6c6b-686b-4196-8c78-efcdac742f15"
+            name="Форма собственности"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="0199a735-7f77-4104-be64-9f6d01c549ff"
+            name="Город"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="9ed2ff6e-4aa5-46eb-b63b-5ec4b5c27041"
+            name="Время работы"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="29ebe371-b40c-4ceb-89a3-e5579abd6147"
+            name="Адрес"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="acc5f9ce-387e-4e97-9e99-99261b02e614"
+            name="Телефон"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="b0ec178c-9a42-4c95-9bc1-eccd8d2994fe"
+            name="Фото"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="a012d658-4557-4473-8647-cea932deec32"
+            name="Специализация"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="bb246e0f-96ea-4926-b2f6-3778b790da57"
+        name="Формы собственности"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <property
+            Id="8939ec47-c431-47d9-af11-389de37787f5"
+            name="Форма собственности"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="aeb5c3de-c78e-4222-9b7e-7a45564ce2d4"
+        name="Торты"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="c6a3a89c-a12e-459d-9113-577075b5e478"
+            isDerived="false"
+            sourceEndRoleName="Торты"
+            targetEndRoleName="Заявка"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="4d23d7bd-cf94-4810-b1ba-7a414e42ac8b"
+              LastKnownName="Заявка"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="5f3ae576-7ee2-44d8-b5e8-e4b5573b93ca"
+                  name="Торты"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="01aeca7c-577e-46a9-bcd2-f528b9595a98"
+                  name="Заявка"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="d6f99edc-5104-4323-92d4-857dd8db55f4"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="43cf8d49-59ba-4326-b7fe-21f749c94f3c"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="3fb91205-69aa-475c-8f2b-3cb9e6b42c64"
+            name="Название"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="eca24461-3b46-4d84-b4d4-a353280bb108"
+            name="Категория"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="4b85cce7-3922-4921-b4a4-97b3a41d1a25"
+            name="Фото"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="7ad36f47-8fb8-40b8-9ab5-a452110cefa7"
+            name="Стоимость"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="3404a26e-abbf-4a7a-a850-190c533e8811"
+        name="Поиск преприятий"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="c98a9beb-62bb-47b1-87d1-118f969bb2aa"
+        name="Поиск на карте"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="c114779a-e4b9-4401-8e9b-056ace864793"
+        name="Начинки"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="7660dfcf-290f-4e0f-97db-1eab379e5a13"
+            isDerived="false"
+            sourceEndRoleName="Начинки"
+            targetEndRoleName="Заявка"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="4d23d7bd-cf94-4810-b1ba-7a414e42ac8b"
+              LastKnownName="Заявка"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a06a48a3-0ae4-4ca8-930c-7b60eb512b0b"
+                  name="Начинки"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b8751861-4893-443b-92f8-4796d07ee2a3"
+                  name="Заявка"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="667e9d66-7462-4732-a54d-84fb37b17639"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="dc5c1d37-2113-484d-b4cf-af1cad9fccd0"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="8f355e9a-2ea6-4035-8883-120377c981f7"
+            name="Цена"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="74b34453-25e9-4003-8717-feb0da90fc66"
+            name="Фото"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="77db5584-016e-407a-b94c-977730fceba5"
+            name="Название"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="9c8c7b66-bda2-4479-92bf-45695050966a"
+        name="Клиент"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="959539ed-4fdc-4a81-ae35-b6a6163e201d"
+            isDerived="false"
+            sourceEndRoleName="Клиент"
+            targetEndRoleName="Заявка"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="4d23d7bd-cf94-4810-b1ba-7a414e42ac8b"
+              LastKnownName="Заявка"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="893d9d62-5dc0-42e3-8c3b-0cf3b80699b8"
+                  name="Клиент"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="1d228962-ca9f-42fc-bb74-85c31f6aebd0"
+                  name="Заявка"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="4434df3f-d9a5-4b43-8ae1-a10164b485de"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="987e2815-58b8-4817-81a6-17af1469b775"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="b07ed716-363f-41d0-bcbc-85e43658d0cd"
+            name="ФИО"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="a722946d-c691-482a-8765-c10a43c9d148"
+            name="Телефон"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="64d7521a-1003-4477-aa00-b8d1a9dadb3c"
+            name="Адрес"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="4d23d7bd-cf94-4810-b1ba-7a414e42ac8b"
+        name="Заявка"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <property
+            Id="352b1e13-c844-4a48-9796-e42b82d39f59"
+            name="Информация"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="f88e6fa6-ce77-4623-a3fa-1235e1a7fe0d"
+            name="Дата приема"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="29999a73-f05e-462a-9e01-641e74efe18b"
+            name="Стоимость"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="b5dac6a8-d931-41ab-bd2f-23a1eef3503e"
+            name="Дата выдачи"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="847b6289-7675-4395-bf2f-14101c1deedd"
+        name="Заявка"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="fa70ea6c-f0b3-4d2c-85eb-9660fbf77369"
+        name="Работник"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="5df0ec79-8ca2-4395-869e-9e0d1b5a14cf"
+            isDerived="false"
+            sourceEndRoleName="Работник"
+            targetEndRoleName="Ремонт товара"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="c9982463-83ef-4bc0-b3b8-1fcd41d2efcc"
+              LastKnownName="Выпечка торта"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="cf12bd0a-7a7b-45fa-b5db-a3efe167ca4b"
+                  name="Работник"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="8442b0b3-6aab-45d9-a0c3-cff1f71ab7c3"
+                  name="Ремонт товара"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="f1cd8da4-7ff0-495b-99b5-6a6a017723e3"
+        name="Торт"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="8de484b1-cea2-4d9e-a628-0cf365af3fc2"
+            isDerived="false"
+            sourceEndRoleName="Товар"
+            targetEndRoleName="Заявка"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="847b6289-7675-4395-bf2f-14101c1deedd"
+              LastKnownName="Заявка"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a90d0db8-1166-4793-9ce7-0ae4ad8ada20"
+                  name="Товар"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="dd9a49c6-6c02-4db7-a848-380fd4c2fcb1"
+                  name="Заявка"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="c9982463-83ef-4bc0-b3b8-1fcd41d2efcc"
+        name="Выпечка торта"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="fd4e81cd-f504-488b-a20b-a9fcc3545c06"
+            isDerived="false"
+            sourceEndRoleName="Ремонт товара"
+            targetEndRoleName="Товар"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="f1cd8da4-7ff0-495b-99b5-6a6a017723e3"
+              LastKnownName="Торт"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="caa30ab3-84ac-4f27-a6a7-4a7204c97c9e"
+                  name="Ремонт товара"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="6e8ac884-804b-4b9f-b48b-0b69493d9806"
+                  name="Товар"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="c1d26a48-699c-492f-af5c-6ce365ef18ff"
+        name="Заполнение данными"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="b1c63b33-7439-48d3-b55a-64af90e7495f"
+        name="Учет заявок"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="fcbb6f27-065f-4056-a075-5d3e709ced52"
+            isDerived="false"
+            sourceEndRoleName="Учет заявок"
+            targetEndRoleName="Заявка"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="847b6289-7675-4395-bf2f-14101c1deedd"
+              LastKnownName="Заявка"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="fabb1662-f9d7-4df9-a1b2-b0178a8728ce"
+                  name="Учет заявок"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="5d8bdc1a-be5a-4d1e-83db-d15e5eae5777"
+                  name="Заявка"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="fc4e3ee3-786d-4513-894f-30013908df8d"
+        name="Оформление"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="6850c94b-4f89-4670-b77a-57421a9a5749"
+            isDerived="false"
+            sourceEndRoleName="Оформление"
+            targetEndRoleName="Заявка"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="4d23d7bd-cf94-4810-b1ba-7a414e42ac8b"
+              LastKnownName="Заявка"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="eeecff55-480c-4e41-9ee3-67b2c36aff59"
+                  name="Оформление"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="3bf02be3-f350-491d-ac00-411090664b16"
+                  name="Заявка"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="0b55b266-79b2-4a59-be28-e2f6d9565b78"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="3492b7ac-94fa-4a76-b9f5-2020957e415d"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="6753eee2-b9ae-45f8-b213-3d1e82cf8b34"
+            name="Цена"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="4747c61b-1763-4695-a94e-f93fd7f908fa"
+            name="Фото"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="1af77b4d-467b-42cb-9384-70f41e3022ac"
+            name="Название"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>

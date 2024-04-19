@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="fe30d8df-cd99-4c13-8131-49b0ff4aaff5" name="UMLUseCaseDiagram1" linkedPackageId="75fb6cff-d25a-47ad-a604-ca8aac31b985" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="72bc85a8-851c-4800-a43e-ba179d901caa" name="Клиент" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="f5d7c971-b185-42fa-95cf-c90881124025" />
+        <targetEnds>
+          <association Id="dec41a4f-385f-41c5-8aab-756413b27f9e" isDerived="false" sourceEndRoleName="Пользователь" targetEndRoleName="UseCase1" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="afd44b6a-c2a8-4838-8f06-4afb46877f51" LastKnownName="Подача заявки на изготовление торта" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="bac73787-95c8-42c8-85f9-bd388453fd81" name="Пользователь" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="daa30233-5958-4be0-a23b-c4eb32069cbc" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="5130a710-309e-40f8-af53-e8f3168afc3c" name="UseCase1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="4b36edc0-19a5-422e-b991-cb069757763f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="e080ac77-4916-4296-8e51-e7d3f182a798" />
+          </association>
+          <association Id="87dc7d64-659b-45c5-92bd-3e7fef39fce4" isDerived="false" sourceEndRoleName="Пользователь" targetEndRoleName="Данные о товарах" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="e17bcd9e-c40b-4ae6-bad4-d27a65f72f7b" LastKnownName="Покупка товара" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="1d735d51-8011-4382-afcf-b26f34322321" name="Пользователь" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="7da7f2ca-dbbc-4d03-af3a-8f361158a65e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="fc2ead0d-0e01-4f1b-84c2-721d17d7c8cb" name="Данные о товарах" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="067c1dca-2c59-4a4c-89ac-26b3c66e4046" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="413bc283-5057-4d2f-89ef-9d92fa30e038" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="afd44b6a-c2a8-4838-8f06-4afb46877f51" name="Подача заявки на изготовление торта" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="3ad89e7c-9960-4ace-81f9-cfe077095cfa" />
+        <targetEnds>
+          <association Id="06838988-bd24-4ce2-b42e-2df2468f1557" isDerived="false" sourceEndRoleName="Подача заявки на гарантийный ремонт" targetEndRoleName="Заявка" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="58f9414c-a368-4f09-b306-a753a3656f2d" LastKnownName="Заявка" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e9a7ab03-79af-4554-bdec-bb8bb0504ec1" name="Подача заявки на гарантийный ремонт" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="d445a29a-e024-452e-bb43-2e3ce8c172cb" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8bc5dec7-9615-49a3-bde3-d61c12aa129a" name="Заявка" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="7182d622-50f1-484f-965b-23cd24d3597b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="26cfcc08-79bf-41cd-b9cf-f17155097a26" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="e17bcd9e-c40b-4ae6-bad4-d27a65f72f7b" name="Покупка товара" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="9fe70dce-8711-4ae6-8622-245ef7e35b97" />
+        <targetEnds>
+          <association Id="126b47ef-6a5f-4a12-97d5-efe48c2ce71b" isDerived="false" sourceEndRoleName="Покупка товара" targetEndRoleName="Товар" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="e469d75e-867b-4244-897f-095fea8c4bf4" LastKnownName="Торт" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6fc02f5d-aa4c-4ecd-adb8-3663d1e1700a" name="Покупка товара" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="689f254a-b693-4bc1-8daa-2239dfce10ad" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="4d3573f8-ba3e-4ad8-be7b-5e8a2b49fdbf" name="Товар" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="6cf72d53-bd4b-40fd-a173-46e6f1101f95" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="449681b6-e883-4e41-9020-b185c95ef082" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="f301c9be-7062-4e75-a1bc-2125a04f37b9" name="Менеджер" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="034ddc7b-a6fd-4a4f-9bc4-b6f847743c1f" />
+        <targetEnds>
+          <association Id="a1450cff-1691-4114-bcc8-f2697138ecb0" isDerived="false" sourceEndRoleName="Администратор" targetEndRoleName="Ввод, удаление и корректировка данных" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="7fe6d2f9-799e-4e3e-9e76-a88cec8b3a55" LastKnownName="Формирование заявки " />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="4c45f7a5-e001-4fe0-a8f6-e61fc10e87d7" name="Администратор" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="d1d15670-10f6-4089-95a5-7188691d412c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="46f86684-9574-47ae-b65c-9c5598e35651" name="Ввод, удаление и корректировка данных" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="dab4d0be-a642-4010-a827-dd0b870f6fd0" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="9625000a-07e7-49d3-ae15-55d71cdc4b33" />
+          </association>
+          <association Id="a93c38fb-7b8d-4857-b264-c9f3bdee4a85" isDerived="false" sourceEndRoleName="Администратор" targetEndRoleName="UseCase2" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="3a2349ed-6fe6-4791-97eb-cfbd210ff9c5" LastKnownName="Заполнение данными" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0154e69a-79f8-401e-ab5e-d25eb1fdf638" name="Администратор" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a7f50990-78b1-46f7-8dbf-779b975207a2" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="51f26925-846d-4f81-adca-b166d687a676" name="UseCase2" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="fd28e100-d56a-40e4-a57c-1e149c3365b3" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="35323bb3-08cb-4518-a90d-5c43901cf7d4" />
+          </association>
+          <association Id="8db88988-110b-4790-8a9f-f76ba92007a7" isDerived="false" sourceEndRoleName="Менеджер" targetEndRoleName="Учет заявок" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="3c312c8b-4398-4e26-96dd-fe92d0a52afe" LastKnownName="Учет заявок" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8778d120-4361-4185-b2ec-f5b294f86ed9" name="Менеджер" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="ba868ddc-b080-4ae1-9eb3-685343f3e9a5" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ace6d225-e76a-44ef-9533-6f7b85dee225" name="Учет заявок" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="7e4eb045-4a11-463c-a592-1ec78aa2c270" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="b96d1562-ab20-4548-bcf1-4f579c9837ef" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="7fe6d2f9-799e-4e3e-9e76-a88cec8b3a55" name="Формирование заявки " isAbstract="false" isLeaf="false">
+        <elementDefinition Id="4f286815-0c17-411f-95e9-d8973345a4e2" />
+        <targetEnds>
+          <association Id="3d3e8d28-728d-4b54-a61d-ab26f21b9428" isDerived="false" sourceEndRoleName="Формирование заявки на ремонт" targetEndRoleName="Заявка" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="58f9414c-a368-4f09-b306-a753a3656f2d" LastKnownName="Заявка" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9382dcf7-8e5c-4c28-9416-391e7550317e" name="Формирование заявки на ремонт" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="59de1393-9d2b-442a-ac2a-151f0d9cadec" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ed0b7692-855e-46df-973a-5ffa4e1001f7" name="Заявка" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="6b556a51-69a5-4ca9-bbd5-3cbcde3f7e69" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="c051f7d7-dd55-4c64-9306-ec33abcb1649" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="58f9414c-a368-4f09-b306-a753a3656f2d" name="Заявка" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="847b6289-7675-4395-bf2f-14101c1deedd" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="6c502068-c77f-4846-b14d-d2ead4102941" name="Работник" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="fa70ea6c-f0b3-4d2c-85eb-9660fbf77369" />
+        <targetEnds>
+          <association Id="f89d5cd9-05aa-4a00-8cac-f8ca72cf6ef7" isDerived="false" sourceEndRoleName="Работник" targetEndRoleName="Ремонт товара" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="f17cbf83-3067-4093-b2a9-76cd870483a5" LastKnownName="Выпечка торта" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b872e897-3e9a-446a-a9a4-5c15ed411060" name="Работник" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="cf12bd0a-7a7b-45fa-b5db-a3efe167ca4b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6cc83b6d-9b3a-40fd-a4f3-37eea350251d" name="Ремонт товара" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="8442b0b3-6aab-45d9-a0c3-cff1f71ab7c3" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="5df0ec79-8ca2-4395-869e-9e0d1b5a14cf" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="e469d75e-867b-4244-897f-095fea8c4bf4" name="Торт" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="f1cd8da4-7ff0-495b-99b5-6a6a017723e3" />
+        <targetEnds>
+          <association Id="1f08e856-1297-47f6-b512-598df095e2e2" isDerived="false" sourceEndRoleName="Товар" targetEndRoleName="Заявка" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="58f9414c-a368-4f09-b306-a753a3656f2d" LastKnownName="Заявка" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="514cdd0d-a9c6-4f31-841a-96a7b44965a2" name="Товар" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a90d0db8-1166-4793-9ce7-0ae4ad8ada20" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ebca746b-ece6-4882-87bd-dd79065f41c9" name="Заявка" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="dd9a49c6-6c02-4db7-a848-380fd4c2fcb1" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="8de484b1-cea2-4d9e-a628-0cf365af3fc2" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="f17cbf83-3067-4093-b2a9-76cd870483a5" name="Выпечка торта" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="c9982463-83ef-4bc0-b3b8-1fcd41d2efcc" />
+        <targetEnds>
+          <association Id="b8f3897f-4ddc-490d-8736-f46599bda1d3" isDerived="false" sourceEndRoleName="Ремонт товара" targetEndRoleName="Товар" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="e469d75e-867b-4244-897f-095fea8c4bf4" LastKnownName="Торт" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3c5acf75-b9ed-441a-b835-75117a862905" name="Ремонт товара" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="caa30ab3-84ac-4f27-a6a7-4a7204c97c9e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7db7c1dd-3340-4806-9e39-c1c7c5c78ee8" name="Товар" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="6e8ac884-804b-4b9f-b48b-0b69493d9806" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="fd4e81cd-f504-488b-a20b-a9fcc3545c06" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="3a2349ed-6fe6-4791-97eb-cfbd210ff9c5" name="Заполнение данными" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="c1d26a48-699c-492f-af5c-6ce365ef18ff" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="3c312c8b-4398-4e26-96dd-fe92d0a52afe" name="Учет заявок" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="b1c63b33-7439-48d3-b55a-64af90e7495f" />
+        <targetEnds>
+          <association Id="4277c324-226f-4fee-b136-a72487bdcd76" isDerived="false" sourceEndRoleName="Учет заявок" targetEndRoleName="Заявка" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="58f9414c-a368-4f09-b306-a753a3656f2d" LastKnownName="Заявка" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="09357ff5-46b7-492a-b122-f54d1c4e7eaa" name="Учет заявок" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="fabb1662-f9d7-4df9-a1b2-b0178a8728ce" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="71eaf8ae-d08e-429e-9175-89d0f23457ca" name="Заявка" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="5d8bdc1a-be5a-4d1e-83db-d15e5eae5777" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="fcbb6f27-065f-4056-a075-5d3e709ced52" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="75fb6cff-d25a-47ad-a604-ca8aac31b985" name="ModelingProject1">
+    <elementDefinition Id="8bfc6740-6bb1-4d59-bc0c-5d3df003f9a8" />
+    <profileInstances>
+      <packageHasProfileInstances Id="6432a17a-0943-4de3-8569-893cb0e2b0a6">
+        <profileInstance Id="c177d3c6-e7bd-4472-9b4a-ddd4acb7e929" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="75d69f7a-64de-4cd5-b9ea-91eb21d7d796">
+        <profileInstance Id="58625f1d-b548-4ff0-bc89-a7d1a2fa5e36" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</useCaseModelRoot>
